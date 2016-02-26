@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D6B0BA61C7FFD2B00514666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6B0BA51C7FFD2B00514666 /* AppDelegate.swift */; };
+		9D6B0BAD1C7FFD2B00514666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6B0BAC1C7FFD2B00514666 /* Assets.xcassets */; };
+		9D6B0BB01C7FFD2B00514666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6B0BAE1C7FFD2B00514666 /* LaunchScreen.storyboard */; };
+		9D6B0BBB1C7FFD2C00514666 /* AnimatedTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6B0BBA1C7FFD2C00514666 /* AnimatedTabBarTests.swift */; };
+		9D6B0BC61C7FFD9800514666 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6B0BC51C7FFD9800514666 /* TabBarController.swift */; };
+		9D6B0BC81C7FFE2900514666 /* Neon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6B0BC71C7FFE2900514666 /* Neon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D6B0BB71C7FFD2C00514666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D6B0B9A1C7FFD2B00514666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D6B0BA11C7FFD2B00514666;
+			remoteInfo = AnimatedTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D6B0BA21C7FFD2B00514666 /* AnimatedTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6B0BA51C7FFD2B00514666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D6B0BAC1C7FFD2B00514666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D6B0BAF1C7FFD2B00514666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D6B0BB11C7FFD2B00514666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D6B0BB61C7FFD2C00514666 /* AnimatedTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6B0BBA1C7FFD2C00514666 /* AnimatedTabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabBarTests.swift; sourceTree = "<group>"; };
+		9D6B0BBC1C7FFD2C00514666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D6B0BC51C7FFD9800514666 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9D6B0BC71C7FFE2900514666 /* Neon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Neon.framework; path = Carthage/Build/iOS/Neon.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D6B0B9F1C7FFD2B00514666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6B0BC81C7FFE2900514666 /* Neon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6B0BB31C7FFD2C00514666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D6B0B991C7FFD2B00514666 = {
+			isa = PBXGroup;
+			children = (
+				9D6B0BC71C7FFE2900514666 /* Neon.framework */,
+				9D6B0BA41C7FFD2B00514666 /* AnimatedTabBar */,
+				9D6B0BB91C7FFD2C00514666 /* AnimatedTabBarTests */,
+				9D6B0BA31C7FFD2B00514666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D6B0BA31C7FFD2B00514666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D6B0BA21C7FFD2B00514666 /* AnimatedTabBar.app */,
+				9D6B0BB61C7FFD2C00514666 /* AnimatedTabBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D6B0BA41C7FFD2B00514666 /* AnimatedTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9D6B0BA51C7FFD2B00514666 /* AppDelegate.swift */,
+				9D6B0BAC1C7FFD2B00514666 /* Assets.xcassets */,
+				9D6B0BAE1C7FFD2B00514666 /* LaunchScreen.storyboard */,
+				9D6B0BB11C7FFD2B00514666 /* Info.plist */,
+				9D6B0BC51C7FFD9800514666 /* TabBarController.swift */,
+			);
+			path = AnimatedTabBar;
+			sourceTree = "<group>";
+		};
+		9D6B0BB91C7FFD2C00514666 /* AnimatedTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D6B0BBA1C7FFD2C00514666 /* AnimatedTabBarTests.swift */,
+				9D6B0BBC1C7FFD2C00514666 /* Info.plist */,
+			);
+			path = AnimatedTabBarTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D6B0BA11C7FFD2B00514666 /* AnimatedTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6B0BBF1C7FFD2C00514666 /* Build configuration list for PBXNativeTarget "AnimatedTabBar" */;
+			buildPhases = (
+				9D6B0B9E1C7FFD2B00514666 /* Sources */,
+				9D6B0B9F1C7FFD2B00514666 /* Frameworks */,
+				9D6B0BA01C7FFD2B00514666 /* Resources */,
+				9D6B0BC91C7FFE3E00514666 /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedTabBar;
+			productName = AnimatedTabBar;
+			productReference = 9D6B0BA21C7FFD2B00514666 /* AnimatedTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D6B0BB51C7FFD2C00514666 /* AnimatedTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6B0BC21C7FFD2C00514666 /* Build configuration list for PBXNativeTarget "AnimatedTabBarTests" */;
+			buildPhases = (
+				9D6B0BB21C7FFD2C00514666 /* Sources */,
+				9D6B0BB31C7FFD2C00514666 /* Frameworks */,
+				9D6B0BB41C7FFD2C00514666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D6B0BB81C7FFD2C00514666 /* PBXTargetDependency */,
+			);
+			name = AnimatedTabBarTests;
+			productName = AnimatedTabBarTests;
+			productReference = 9D6B0BB61C7FFD2C00514666 /* AnimatedTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D6B0B9A1C7FFD2B00514666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = guidomb;
+				TargetAttributes = {
+					9D6B0BA11C7FFD2B00514666 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9D6B0BB51C7FFD2C00514666 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9D6B0BA11C7FFD2B00514666;
+					};
+				};
+			};
+			buildConfigurationList = 9D6B0B9D1C7FFD2B00514666 /* Build configuration list for PBXProject "AnimatedTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D6B0B991C7FFD2B00514666;
+			productRefGroup = 9D6B0BA31C7FFD2B00514666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D6B0BA11C7FFD2B00514666 /* AnimatedTabBar */,
+				9D6B0BB51C7FFD2C00514666 /* AnimatedTabBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D6B0BA01C7FFD2B00514666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6B0BB01C7FFD2B00514666 /* LaunchScreen.storyboard in Resources */,
+				9D6B0BAD1C7FFD2B00514666 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6B0BB41C7FFD2C00514666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D6B0BC91C7FFE3E00514666 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Neon.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D6B0B9E1C7FFD2B00514666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6B0BA61C7FFD2B00514666 /* AppDelegate.swift in Sources */,
+				9D6B0BC61C7FFD9800514666 /* TabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6B0BB21C7FFD2C00514666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6B0BBB1C7FFD2C00514666 /* AnimatedTabBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D6B0BB81C7FFD2C00514666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D6B0BA11C7FFD2B00514666 /* AnimatedTabBar */;
+			targetProxy = 9D6B0BB71C7FFD2C00514666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D6B0BAE1C7FFD2B00514666 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D6B0BAF1C7FFD2B00514666 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D6B0BBD1C7FFD2C00514666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D6B0BBE1C7FFD2C00514666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D6B0BC01C7FFD2C00514666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = AnimatedTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.guidomb.AnimatedTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D6B0BC11C7FFD2C00514666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = AnimatedTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.guidomb.AnimatedTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D6B0BC31C7FFD2C00514666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimatedTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.guidomb.AnimatedTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedTabBar.app/AnimatedTabBar";
+			};
+			name = Debug;
+		};
+		9D6B0BC41C7FFD2C00514666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimatedTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.guidomb.AnimatedTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedTabBar.app/AnimatedTabBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D6B0B9D1C7FFD2B00514666 /* Build configuration list for PBXProject "AnimatedTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6B0BBD1C7FFD2C00514666 /* Debug */,
+				9D6B0BBE1C7FFD2C00514666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D6B0BBF1C7FFD2C00514666 /* Build configuration list for PBXNativeTarget "AnimatedTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6B0BC01C7FFD2C00514666 /* Debug */,
+				9D6B0BC11C7FFD2C00514666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D6B0BC21C7FFD2C00514666 /* Build configuration list for PBXNativeTarget "AnimatedTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6B0BC31C7FFD2C00514666 /* Debug */,
+				9D6B0BC41C7FFD2C00514666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D6B0B9A1C7FFD2B00514666 /* Project object */;
+}
